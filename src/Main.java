@@ -2,15 +2,13 @@
 public class Main {
 
     public static void main(String[] args)
-    {
-        AdjacencyList NetworkGrid = new AdjacencyList();
-        AddingVerticesAndEgdes(NetworkGrid);
 
-       NetworkGrid.PrintEdges();
-
-       NetworkGrid.MST();
-
-       NetworkGrid.PrintMST();
+    {      // making a adjacencylist and adding the vertex class to our list
+           AdjacencyList NetworkGrid = new AdjacencyList();
+           AddingVerticesAndEgdes(NetworkGrid);
+           NetworkGrid.PrintEdges();
+           NetworkGrid.MST();
+           NetworkGrid.PrintMST();
 
 
     }
